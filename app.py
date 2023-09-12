@@ -11,8 +11,9 @@ def index():
     ")
 
 @app.route("/api/<param>")
-def openaiapi():
+def openaiapi(param):
     print(param)
+    return (param+"hogrhoge")
 
 if __name__=="main":
     app.run(port=8888, host="0.0.0.0", debug=True) 
