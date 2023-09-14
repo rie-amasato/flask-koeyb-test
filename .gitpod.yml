@@ -2,7 +2,7 @@ ports:
  - port: 8888
    onOpen: open-browser
 tasks:
-  - name: open_jupyter
+  - name: open_flask
     init: "pip install --upgrade pip"
     before: "pip install -r requirements.txt"
     command: "flask run --host=0.0.0.0 --port=8888 --debug"
