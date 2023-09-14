@@ -16,7 +16,7 @@ def url_api(param):
 @app.route("/api", methods={"post"})
 def post_api():
     param=request.form.get("inname_data")
-    print(param)
+    print("param: ", param)
     return ("param: "+param)
 
 if __name__=="main":
