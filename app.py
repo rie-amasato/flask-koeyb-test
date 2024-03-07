@@ -19,5 +19,5 @@ def post_api():
     print("param: ", param)
     return ("param: "+param)
 
-if __name__=="main":
-    app.run(port=8888, host="0.0.0.0", debug=True) 
+if __name__=="__main__":
+    app.run() 
