@@ -1,1 +1,1 @@
-web: gunicorn --bind :8000 app:app
+web: gunicorn --bind : app:app
